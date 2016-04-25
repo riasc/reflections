@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    As I can see the differences between the files, it helps me to detect the
+    differences between a correct and inocorrect working version and therefore 
+    makes it easy to identify typos or other kind of bugs. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It allows me to return to all previous versions at any point in development,
+    to enable/disable features, test different approaches and so on.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    I will have full control of my changes in the versions. Commits need to be of
+    the right size to understand. Otherwise it would be complicated to return to 
+    previous version without having an idea what was changed. Also this prevents
+    to existence of version that are faulty.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It makes sense that in development a version of the software or tool includes
+    multiple files. Making changes in one may result in a defective execution of 
+    the tool when other files are not changed simultaneously (in the version).
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Where git log lists all the commits that were made, git diff shows the difference
+    (insertions and deletions) between the two commits. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can always return to a previous working version. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want use git for my projects I'm working on. In particular, using it for backups
+    and having the oppurtunity to return to previous versions of the projects. 
