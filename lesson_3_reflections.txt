@@ -18,11 +18,11 @@ use one instead of another?
 	labels for the commits in order to work on a different feature than the master
 	version without influencing the master.
     
-
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
+	Git is able to keep track of the commits on the remote repository. This 
+	has the benefit that git works offline but is still to track any changes 
+	in the remote repository done in the meantime.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
