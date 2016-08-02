@@ -26,8 +26,10 @@ stored locally?
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
-    Fill in your answer here
+	I would try to consider other revision control tools such das SVN. Otherwise,
+	one would have to send the files per mail to the collaborator. However, this
+	is tedious when multiple collaborator work on the same file. Merging would have
+	to be done manual that can result in malfunctioning code. 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
