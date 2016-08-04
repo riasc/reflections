@@ -33,5 +33,11 @@ and what would be harder?
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-    Fill in your answer here
+	Collaboration will result in a multitude of features and version that
+	probably will not all end up in the final version. This allows to always
+	provide a working version in the master branch, where the other branches 
+	can be used for development. On the other hand, changes directly on the 
+	master would include small bugfixes or typos. However, this approach risks
+	having merge conflicts on collaboration with multiple users. It is better 
+	for the users to pull the master branch and then merge the master branch
+	into the local branch and then create a pull request. 
